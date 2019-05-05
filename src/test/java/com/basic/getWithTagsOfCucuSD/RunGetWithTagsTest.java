@@ -15,11 +15,11 @@ import cucumber.api.junit.Cucumber;
 			 //tags={"@Smoke"}, //only tag with @smoke
 			//tags={"@Smoke","@Regression"}, //AND condition
 			 //tags={"@Smoke,@Regression"} , // OR condiction
-			//tags = {"~@Smoke,@Regreesion"},//this will exclude the scenario
+			//tags = {"~@Smoke","@Regreesion"},//this will exclude the scenario
 			monochrome=true,
 			dryRun=false,
 			features= {"src/test/resources/com/basic/getWithTagsOfCucuFF/"},
-			glue={" com/basic/getWithTagsOfCucuSD/"},
+			glue={"com/basic/getWithTagsOfCucuSD/"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
 					"json:target/cucumber-report6.json",

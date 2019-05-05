@@ -31,7 +31,7 @@ public class OnefolderstepDefs {
  @When("^he enters \"([^\"]*)\" as password$")
  public void he_enters_as_password(String arg1)  {
      // Write code here that turns the phrase above into concrete actions
-	 driver.findElement(By.xpath())
+	//driver.findElement(By.xpath())
      
  }
 
